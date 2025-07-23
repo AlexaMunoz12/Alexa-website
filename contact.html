@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Alexa</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="contact-bg">
+  <header>
+    <nav class="navbar">
+      <a href="index.html"><img src="icons/logo1.png" alt="Logo" style="width: 150px;"></a>
+      <ul class="nav-links">
+        <li><a href="index.html"><img src="icons/home.svg" alt="home icon"><span class="nav-label">Home</span></a></li>
+        <li><a href="projects.html"><img src="icons/computer.svg" alt="projects icon"><span class="nav-label">Projects</span></a></li>
+        <li><a href="about.html"><img src="icons/aboutme.svg" alt="about icon"><span class="nav-label">About Me</span></a></li>
+        <li><a href="contact.html"><img src="icons/email.svg" alt="contact icon"><span class="nav-label">Contact</span></a></li>
+      </ul>
+      <div class="lang-switch">
+        <button id="en">EN</button> | <button id="es">ES</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="contact-section">
+    <h1 data-en="Let's Connect." data-es="Conectemos.">Let's Connect.</h1>
+    <p class="contact-description" data-en="Whether it’s for a project, collaboration or just a hello, I’d love to hear from you!"
+       data-es="Ya sea para un proyecto, colaboración o solo para saludar — ¡me encantaría saber de ti!">
+      Whether it’s for a project, collaboration or just a hello — I’d love to hear from you!
+    </p>
+
+    <form class="contact-form" action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="send-btn">Send →</button>
+    </form>
+
+    <div class="social-links">
+      <a href="mailto:alexa.munoz@berkeley.edu">✉️ Email</a>
+      <a href="https://www.linkedin.com/in/alexa-mu%C3%B1oz-chavez-43b626295/" target="_blank">💼 LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">👩‍💻 GitHub</a>
+    </div>
+  </main>
+
+  <script src="js/language.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="projects-bg">
+  <header>
+    <nav class="navbar">
+      <a href="index.html">
+        <img src="icons/logo1.png" alt="Logo" style="width: 150px;" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html"><img src="icons/home.svg" alt="Home icon" /></a></li>
+        <li><a href="projects.html"><img src="icons/computer.svg" alt="Projects icon" /></a></li>
+        <li><a href="about.html"><img src="icons/aboutme.svg" alt="About me icon" /></a></li>
+        <li><a href="contact.html"><img src="icons/email.svg" alt="Contact icon" /></a></li>
+      </ul>
+      <div class="lang-switch">
+        <button id="en">EN</button><span>|</span><button id="es">ES</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="projects-section">
+    <h2 class="section-title">Projects<span class="dot">.</span></h2>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active">Show all</button>
+      <button class="filter-btn">PYTHON</button>
+      <button class="filter-btn">HTML/CSS/JS</button>
+      <button class="filter-btn">SQL/PANDAS</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="images/VirtualMentor.png" alt="VirtualMentor" class="project-img" />
+        <h3 class="project-title">➤ VirtualMentor<span class="underscore">_</span></h3>
+        <p class="project-desc"
+          data-en = "Hello"
+          data-es = "Hola">
+          Hello
+        </p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="images/buildyourownworld.png" alt="buildyourown world" class="project-img" />
+        <h3 class="project-title">➤ CvFy<span class="underscore">_</span></h3>
+        <p class="project-desc"
+            data-en="Build your own wolrd"
+            data-es="Construir su propio mundo">
+        </p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="images/2048.gif" alt="2048" class="project-img" />
+        <h3 class="project-title">➤ CvFy<span class="underscore">_</span></h3>
+        <p class="project-desc"
+          data-en = "2048 game"
+          data-es="2048 juego">
+        </p>
+      </div>
+      <!-- Project 4 -->
+      <div class="project-card">
+        <img src="images/buildyourownworld.png" alt="CvFy" class="project-img" />
+        <h3 class="project-title">➤ CvFy<span class="underscore">_</span></h3>
+        <p class="project-desc">
+          Build your CV in English & Spanish using this Nuxt.js PWA. Designed with TailwindCSS and deployed on Netlify.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

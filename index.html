@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alexa BDM</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="home-bg">
+  <header>
+    <nav class="navbar">
+    <a href="index.html">
+        <img src="icons/logo1.png" alt="Logo" style="width: 150px;">
+     </a>
+      <ul class="nav-links">
+  <li>
+    <a href="projects.html">
+      <img src="icons/computer.svg" alt="Projects icon" />
+      <span class="nav-label">Projects</span>
+    </a>
+  </li>
+  <li>
+    <a href="about.html">
+      <img src="icons/aboutme.svg" alt="About me icon" />
+      <span class="nav-label">About Me</span>
+    </a>
+  </li>
+  <li>
+    <a href="contact.html">
+      <img src="icons/email.svg" alt="Contact icon" />
+      <span class="nav-label">Contact</span>
+    </a>
+  </li>
+</ul>
+      <div class="lang-switch">
+        <button id="en">EN</button><span>|</span><button id="es">ES</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <h1 class= "fade-in" data-en="Hi! I'm Alexa" data-es="¡Hola! Soy Alexa">Hi! I'm Alexa</h1>
+      <p class= "fade-in delay" data-en="I'm a student at UC Berkeley passionate about tech & design."
+         data-es="Soy estudiante en UC Berkeley, apasionada por la tecnología y el diseño.">
+         I'm a student at UC Berkeley passionate about tech & design.
+      </p>
+      <div class="hero-buttons fade-in delay-2">
+        <a href="projects.html" class="cta-btn bounce-on-click" data-en="Discover my projects" data-es="Ver mis proyectos">Discover my projects</a>
+        <a href="about.html" class="cta-btn secondary bounce-on-click" data-en="Who am I?" data-es="¿Quién soy?">Who am I?</a>
+      </div>
+    </div>
+    <div class="hero-img fade-in delay-3">
+      <img src="images/me.jpg" alt="3D Alexa figure" />
+    </div>
+  </main>
+
+  <script src="js/language.js"></script>
+</body>
+</html>
+
